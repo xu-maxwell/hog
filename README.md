@@ -62,12 +62,3 @@ The `average_win_rate` function returns the average win rate (between 0 and 1) o
 - `baseline`: The baseline strategy function to compare against.
 - `num_battles`: The number of games to be played for evaluation (default is 1000).
 
-## Command Line Interface
-
-The repository includes a command line interface (CLI) that allows you to play the game of Hog against a computer opponent. To run the CLI, execute the following command:
-
-```
-python hog_gui.py
-```
-
-The CLI provides a user-friendly interface where you can input your moves and see the current game state. You can choose to play against a computer opponent that uses a specified strategy or against another human player.
